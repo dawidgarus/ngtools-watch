@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "../dist",
+		"module": "commonjs",
+		"target": "es5",
+		"lib": ["es6", "dom"],
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"paths": {
+			"shared/*": ["shared/*"]
+		},
+		"types": []
+	},
+	"angularCompilerOptions": {
+		"genDir": ".",
+		"skipMetadataEmit": true
+	},
+	"files": [
+		"main/main.ts"
+	]
+}
